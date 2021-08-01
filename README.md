@@ -1,5 +1,4 @@
-# RSSR: Rolling shutter temporal super-resolution (ICCV2021)
-Inverting a Rolling Shutter Camera: Bring Rolling Shutter Images to High Framerate Global Shutter Video
+# SUNet: Symmetric Undistortion Network for Rolling Shutter Correction (ICCV2021)
 ![alt text](./network_overview.png)
 
 
@@ -11,9 +10,9 @@ Code will be released very soon.
 
 Please cite our paper if necessary:
 ```
-@inproceedings{fan_rssr21,
-  title={Inverting a Rolling Shutter Camera: Bring Rolling Shutter Images to High Framerate Global Shutter Video},
-  author={Fan, Bin and Dai, Yuchao},
+@inproceedings{fan_SUNet21,
+  title={SUNet: Symmetric Undistortion Network for Rolling Shutter Correction},
+  author={Fan, Bin and Dai, Yuchao and He, Mingyi},
   booktitle={Proceedings of the International Conference on Computer Vision (ICCV)},
   year={2021}
 }
