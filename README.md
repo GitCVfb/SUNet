@@ -11,7 +11,7 @@ pip install -r requirements.txt
 ```
 The code is tested with PyTorch 16.0 with CUDA 10.2.89.
 
-Note that we borrowed some modules of [DeepUnrollNet](https://github.com/ethliup/DeepUnrollNet).
+Note that in our implementation, we borrowed some modules from [DeepUnrollNet](https://github.com/ethliup/DeepUnrollNet).
 
 #### Install correlation package
 ```
@@ -28,16 +28,16 @@ python setup.py install
 cd ./package_core
 python setup.py install
 ```
-
 ## Demo with our pretrained model
 You can now test our model with the provided images in the `demo` folder. Other examples in the dataset can be tested similarly.
+
 To do this, simply run
 ```
 sh demo.sh
 ```
 
 ## Datasets
-- **Carla-RS:** and **Fastec-RS:** Download them to your local computer from [here](https://github.com/ethliup/DeepUnrollNet).
+- **Carla-RS** and **Fastec-RS:** Download them to your local computer from [here](https://github.com/ethliup/DeepUnrollNet).
 
 ## Training and evaluating
 You can run following commands to re-train the network.
@@ -53,6 +53,7 @@ You can run following commands to obtain the quantitative evaluations.
 bash download_pretrained_models.sh
 # !! Please update the path to test data in 'inference.sh'
 # !! with your own local path, before run following command!!
+
 sh inference.sh
 ```
 
@@ -68,5 +69,5 @@ Please cite our paper if necessary:
 }
 ```
 
-## Contact=
+## Contact
 Please drop me an email for further problems or discussion: binfan@mail.nwpu.edu.cn
