@@ -1,7 +1,8 @@
-# SUNet: Symmetric Undistortion Network for Rolling Shutter Correction (ICCV2021)
-![alt text](./network_overview.png)
+# SUNet
 
+[SUNet: Symmetric Undistortion Network for Rolling Shutter Correction (ICCV2021)](http://openaccess.thecvf.com/content/ICCV2021/papers/Fan_SUNet_Symmetric_Undistortion_Network_for_Rolling_Shutter_Correction_ICCV_2021_paper.pdf)
 
+<img src="result_demo/rs.gif" height="280px"/> <img src="result_demo/our.gif" height="280px"/>
 
 # Code
 Code will be released very soon.
