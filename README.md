@@ -9,7 +9,7 @@ Install the dependent packages:
 ```
 pip install -r requirements.txt
 ```
-The code is tested with PyTorch 16.0 with CUDA 10.2.89.
+The code is tested with PyTorch 1.6.0 with CUDA 10.2.89.
 
 Note that in our implementation, we borrowed some modules from [DeepUnrollNet](https://github.com/ethliup/DeepUnrollNet).
 
