@@ -6,11 +6,11 @@
 # Code
 Code will be released very soon.
 
-# Our Bib:
+# Citations
 
 Please cite our paper if necessary:
 ```
-@inproceedings{fan_SUNet21,
+@inproceedings{fan_SUNet_ICCV21,
   title={SUNet: Symmetric Undistortion Network for Rolling Shutter Correction},
   author={Fan, Bin and Dai, Yuchao and He, Mingyi},
   booktitle={Proceedings of the International Conference on Computer Vision (ICCV)},
@@ -21,3 +21,5 @@ Please cite our paper if necessary:
 # Contact
 
 Please drop me an email for further problems or discussion: binfan@mail.nwpu.edu.cn
+
+
