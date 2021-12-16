@@ -1,29 +1,28 @@
-# SUNet
+# SUNet: Symmetric Undistortion Network for Rolling Shutter Correction
 
 This repository contains the source code for the paper: [SUNet: Symmetric Undistortion Network for Rolling Shutter Correction (ICCV2021)](http://openaccess.thecvf.com/content/ICCV2021/papers/Fan_SUNet_Symmetric_Undistortion_Network_for_Rolling_Shutter_Correction_ICCV_2021_paper.pdf)
 
 <img src="result_demo/rs.gif" height="280px"/> <img src="result_demo/our.gif" height="280px"/>
 
 ## Installation
-To train or test the model, you need to install the dependent packages via
+Install the dependent packages:
 ```
 pip install -r requirements.txt
 ```
-The code is tested with PyTorch 16.0 with CUDA 10.2.89. 
-Note that we borrowed some modules of [DeepUnrollNet](https://github.com/ethliup/DeepUnrollNet)
+The code is tested with PyTorch 16.0 with CUDA 10.2.89.
+
+Note that we borrowed some modules of [DeepUnrollNet](https://github.com/ethliup/DeepUnrollNet).
 
 #### Install correlation package
 ```
 cd ./package_correlation
 python setup.py install
 ```
-
 #### Install differentiable forward warping package
 ```
 cd ./package_forward_warp
 python setup.py install
 ```
-
 #### Install core package
 ```
 cd ./package_core
@@ -31,17 +30,17 @@ python setup.py install
 ```
 
 ## Demo with our pretrained model
-You can now test our code with the provided images in the `demo` folder.
+You can now test our model with the provided images in the `demo` folder. Other examples in the dataset can be tested similarly.
 To do this, simply run
 ```
 sh demo.sh
 ```
 
 ## Datasets
-- **Carla-RS:** and **Fastec-RS:** Download them to your local computer from [here](https://github.com/ethliup/DeepUnrollNet)
+- **Carla-RS:** and **Fastec-RS:** Download them to your local computer from [here](https://github.com/ethliup/DeepUnrollNet).
 
 ## Training and evaluating
-You can run following commands to re-train the networks.
+You can run following commands to re-train the network.
 ```
 # !! Please update the corresponding paths in 'train.sh' with  #
 # !! your own local paths, before run following command!!      #
