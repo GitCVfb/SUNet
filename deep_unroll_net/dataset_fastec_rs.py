@@ -57,7 +57,7 @@ class Dataset_fastec_rs(Dataset):
                     
                     if self.load_optiflow:
                         if os.path.exists(seq_optiflow[0]) or not os.path.exists(seq_optiflow[1]):
-                        seq_optiflow[1] = seq_optiflow[0]
+                            seq_optiflow[1] = seq_optiflow[0]
                     
                     if not os.path.exists(seq_Irs[-1]) or not os.path.exists(seq_optiflow[0]):
                         break
