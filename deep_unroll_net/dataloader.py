@@ -6,7 +6,7 @@ def Create_dataloader(opts):
         dataset = Dataset_fastec_rs(opts.dataset_root_dir, \
                                     seq_len=opts.seq_len, \
                                     load_optiflow=False, \
-                                    load_1st_GS=False, \
+                                    load_1st_GS=True, \
                                     load_middle_gs=False)#control load the first or middle scanline GS
 
     if opts.dataset_type=='Carla':
@@ -18,7 +18,7 @@ def Create_dataloader(opts):
                                     load_middle_gs=False, \
                                     #load_flow=opts.load_gt_flow, \
                                     load_flow=False, \
-                                    load_1st_GS=False, \
+                                    load_1st_GS=True, \
                                     load_optiflow=False, \
                                     load_mask=load_mask, \
                                     load_depth=False)
