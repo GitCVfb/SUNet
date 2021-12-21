@@ -168,8 +168,3 @@ class Dataset_carla_rs(Dataset):
                 'flow': optiflow,
                 'flow_m': flow,
                 'mask': mask}
-
-# dataset = Dataset_carla_rs(root_dir='/home/peidong/leonhard/project/infk/cvg/liup/mydata/Unreal/2019_10_20_Carla_RS_dataset/test', seq_len=1)
-# print(len(dataset))
-
-
