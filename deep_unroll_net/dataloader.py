@@ -16,7 +16,8 @@ def Create_dataloader(opts):
         dataset = Dataset_carla_rs(opts.dataset_root_dir, \
                                     seq_len=opts.seq_len, \
                                     load_middle_gs=False, \
-                                    load_flow=opts.load_gt_flow, \
+                                    #load_flow=opts.load_gt_flow, \
+                                    load_flow=False, \
                                     load_1st_GS=False, \
                                     load_optiflow=False, \
                                     load_mask=load_mask, \
