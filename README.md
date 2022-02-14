@@ -50,7 +50,6 @@ sh train.sh
 
 You can run following commands to obtain the quantitative evaluations.
 ```
-bash download_pretrained_models.sh
 # !! Please update the path to test data in 'inference.sh'
 # !! with your own local path, before run following command!!
 
