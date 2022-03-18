@@ -13,7 +13,7 @@ This repository contains the source code for the paper: [SUNet: Symmetric Undist
   </thead>
   <tr>
     <td colspan="2">
-      <a src="result_demo/rs.gif">
+      <img src="result_demo/rs.gif">
         <img src="result_demo/our.gif">
         </img>
       </a>
