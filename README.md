@@ -2,19 +2,17 @@
 
 This repository contains the source code for the paper: [SUNet: Symmetric Undistortion Network for Rolling Shutter Correction (ICCV2021)](http://openaccess.thecvf.com/content/ICCV2021/papers/Fan_SUNet_Symmetric_Undistortion_Network_for_Rolling_Shutter_Correction_ICCV_2021_paper.pdf)
 
-<img src="result_demo/rs.gif" height="280px"/> <img src="result_demo/our.gif" height="280px"/>
-
 <table>
   <thead>
     <tr>
-      <td>Input rolling shutter image&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td>Input rolling shutter image&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
       <td>Recovered global shutter image</td>
     </tr>
   </thead>
   <tr>
     <td colspan="2">
-      <img src="result_demo/rs.gif" height="280px"/>
-        <img src="result_demo/our.gif" height="280px"/>
+      <img src="result_demo/rs.gif" height="300px"/>
+        <img src="result_demo/our.gif" height="300px"/>
         </img>
       </a>
     </td>
