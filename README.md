@@ -4,7 +4,23 @@ This repository contains the source code for the paper: [SUNet: Symmetric Undist
 
 <img src="result_demo/rs.gif" height="280px"/> <img src="result_demo/our.gif" height="280px"/>
 
->>>Input rolling shutter image                     Recovered global shutter images by SUNet
+<table>
+  <thead>
+    <tr>
+      <td>Input rolling shutter image&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td>Recovered global shutter image</td>
+    </tr>
+  </thead>
+  <tr>
+    <td colspan="2">
+      <a src="result_demo/rs.gif">
+        <img src="result_demo/our.gif">
+        </img>
+      </a>
+    </td>
+  </tr>
+</table>
+
 ## Installation
 Install the dependent packages:
 ```
